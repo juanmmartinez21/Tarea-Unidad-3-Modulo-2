@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: left;
+	width: 190px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px){
+	body {
+		padding:0;
+		margin:0;
+	}
+
+	.contenedor {
+		background: #8FA68E;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	nav{
+		background: #d4a051;
+		float: none;
+		width: 100%;
+	}
+	nav ul{
+        margin: 0px;
+	}	
+	nav ul li a{
+		color: #000;
+		padding: 10px;
+		display: block;
+	}
+	section{
+		width: 100%;
+		margin: 0;
+		background-color: #f1eac5;
+	}
+	aside{
+		width: 100%;
+		float: none;
+		margin-left: 0;
+		padding: 10px;
+	}
+	.ajuste{
+		border-top: black solid 0.5px;
+		border-bottom: black solid 0.5px;
+		float: none;
+		margin-left: 0;
+		padding: 10px;
+		width: 100%;
+	}
+}
